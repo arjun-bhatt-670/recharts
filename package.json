@@ -34,7 +34,7 @@
     "autofix": "eslint './src/**/*.?(ts|tsx)' --fix",
     "analyse": "cross-env NODE_ENV=analyse webpack ./src/index.ts -o umd/Recharts.js",
     "tsc": "tsc",
-    "postinstall": "npm run build"
+    "postinstall": "npm i && npm run build"
   },
   "pre-commit": [],
   "pre-push": [
